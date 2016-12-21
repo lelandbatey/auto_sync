@@ -1,5 +1,15 @@
 # auto_sync
-Sync a local and remote folder like Dropbox, via the command line 
+Sync a local and remote folder like Dropbox, via the command line.
+
+# Install
+
+I have truly no idea if this will work cross platform. I only use this on Linux.
+
+To install, you will need the Python package known as 'watchdog' and you'll need the command line tool `rsync`. You can install them like so:
+
+    sudo apt install python-watchdog rsync
+
+After installing dependencies, you can put this file in any folder in your `$PATH` environment variable. Or just copy the file wherever you want to use it. 
 
 ## What is this, and why do I want this?
 
